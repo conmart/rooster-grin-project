@@ -3,13 +3,107 @@
   <head>
     <meta charset="utf-8">
     <title>Rooster Grin Front End Dev Test</title>
+    <!-- Roboto font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
     <link rel="stylesheet" href="/styles/main.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+
+    <script type="text/javascript" src="/src/app.js"></script>
   </head>
   <body>
 
-    <pre>
-      <h1>Hello World</h1>
-    </pre>
+    <nav>
+      <div class="nav-wrapper">
+        <img src="/assets/igniter-logo-white.png" class="brand-logo center nav-logo">
+      </div>
+    </nav>
+
+    <div class="slider" id="main-slider">
+      <ul class="slides">
+        <li>
+          <img src="/assets/hero-img.jpg">
+          <div class="caption center-align">
+            <h3>This is our big Tagline!</h3>
+            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+          </div>
+        </li>
+        <li>
+          <img src="https://lorempixel.com/580/250/nature/2"> <!-- random image -->
+          <div class="caption left-align">
+            <h3>Left Aligned Caption</h3>
+            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+          </div>
+        </li>
+        <li>
+          <img src="https://lorempixel.com/580/250/nature/3"> <!-- random image -->
+          <div class="caption right-align">
+            <h3>Right Aligned Caption</h3>
+            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col l6 sm-paragraph">
+          <div class="row">
+            <div class="col l3 center-align">
+              <img src="/assets/page-icon.svg" alt="page icon">
+            </div>
+            <div class="col l9">
+              Lorem ipsum dolor sit amet, ac dis acru libero, pulvinar vitae lectus cursus.
+            </div>
+          </div>
+        </div>
+        <div class="col l6 sm-paragraph">
+          <div class="row">
+            <div class="col l3 center-align">
+              <img src="/assets/page-icon.svg" alt="page icon">
+            </div>
+            <div class="col l9">
+              Lorem ipsum dolor sit amet, ac dis acru libero, pulvinar vitae lectus cursus.
+            </div>
+          </div>
+        </div>
+
+        <div class="col l6 sm-paragraph">
+          <div class="row">
+            <div class="col l3 center-align">
+              <img src="/assets/page-icon.svg" alt="page icon">
+            </div>
+            <div class="col l9">
+              Lorem ipsum dolor sit amet, ac dis acru libero, pulvinar vitae lectus cursus.
+            </div>
+          </div>
+        </div>
+        <div class="col l6 sm-paragraph">
+          <div class="row">
+            <div class="col l3 center-align">
+              <img src="/assets/page-icon.svg" alt="page icon">
+            </div>
+            <div class="col l9">
+              Lorem ipsum dolor sit amet, ac dis acru libero, pulvinar vitae lectus cursus.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="slanted-img">
+      <img src="/assets/slanted-gradient-background.svg" alt="slanted background">
+      <div class="container img-text">
+        Lorem ipsum dolor sit amet, ac dis acru libero, pulvinar vitae lectus cursus.
+        Purus libero amet, at dui, tincidunt nunc vestibulum in justo, a faucibus ipsum hendrerit semper ipsum ac.
+      </div>
+    </div>
+
 
     <script type="text/javascript" src="bundle.js"></script>
   </body>
