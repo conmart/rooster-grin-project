@@ -1,8 +1,26 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
 h1 {
   font-size: 28px;
   color: #283647;
   text-align: center;
-  padding-top: 25px;
+  padding: 25px;
+}
+
+h2 {
+  font-size: 28px;
+  color: #F36819;
+  margin-bottom: 0px;
+}
+
+h3 {
+  margin-top: 5px;
+  margin-bottom: 8%;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: #F7931D;
 }
 
 .lorem {
@@ -10,9 +28,6 @@ h1 {
   color: #F36819;
 }
 
-body {
-  font-family: 'Roboto', sans-serif;
-}
 
 nav .nav-logo {
   padding-top: 6px;
@@ -31,6 +46,12 @@ nav {
 .slanted-img {
   position: relative;
   width: 100%;
+  margin-top: -20px;
+  margin-bottom: 60px;
+}
+
+.above-slanted {
+  margin-bottom: 0px;
 }
 
 .img-text {
@@ -38,7 +59,7 @@ nav {
   top: 100px;
   left: 17%;
   color: #e0e0e0;
-  font-size: 20px;
+  font-size: 25px;
   text-align: center;
 }
 
@@ -66,4 +87,28 @@ nav {
 .percent-text {
   color: #F36819;
   font-size: 14px;
+}
+
+.img-paragraph {
+  margin: 8%;
+}
+
+.row .flush-img {
+  padding: 0px;
+}
+
+.bottom-img {
+  max-width: 100%;
+}
+
+.right-img {
+  padding-left: 10px;
+}
+
+.left-img {
+  padding-right: 10px;
+}
+
+#main-slider {
+  margin-bottom: 50px;
 }
