@@ -95,25 +95,49 @@ nav {
 
 .row .flush-img {
   padding: 0px;
+}
+
+.bottom-img {
   max-width: 705px;
   max-height: 350px;
 }
 
-.bottom-img {
-  max-width: 100%;
-}
-
-.phone-img {
-  margin-left: 10px;
-}
-
 .phone-div {
-  float: right;
+  text-align: right;
+  width: 50%;
 }
 
 .text-with-img {
   margin-top: 5%;
   margin-bottom: 5%;
+}
+
+.hero-img-text {
+  position: absolute;
+  top: 50%;
+  left: 16%;
+  z-index: 5;
+  width: 84%;
+}
+
+.hero-img-text p {
+  color: white;
+  font-size: 48px;
+  font-weight: bold;
+  margin: 0 0 5px 0;
+}
+
+.envelope-background {
+  border-radius: 5px 0 0 5px;
+  background-color: #F7931D;
+  height: 40px;
+  width: 50px;
+  display: grid;
+  float: right;
+}
+
+.envelope {
+  margin: auto;
 }
 
 #main-slider {
