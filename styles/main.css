@@ -95,20 +95,39 @@ nav {
 
 .row .flush-img {
   padding: 0px;
+  max-width: 705px;
+  max-height: 350px;
 }
 
 .bottom-img {
   max-width: 100%;
 }
 
-.right-img {
-  padding-left: 10px;
+.phone-img {
+  margin-left: 10px;
 }
 
-.left-img {
-  padding-right: 10px;
+.phone-div {
+  float: right;
+}
+
+.text-with-img {
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 #main-slider {
   margin-bottom: 50px;
+}
+
+.slider .indicators .indicator-item {
+  background-color: white;
+  border: 1px solid black;
+  height: 12px;
+  width: 12px;
+  margin: 15px 7px 0 7px;
+}
+
+.slider .indicators .indicator-item.active {
+  background-color: black;
 }

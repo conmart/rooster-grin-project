@@ -3,7 +3,13 @@
 
 console.log("working")
 
+// var options = [
+//   'height': 509
+// ];
+
 $(document).ready(function(){
   console.log('doc ready');
-  $('.slider').slider();
+  $('.slider').slider({
+    height: 509
+  });
 });
