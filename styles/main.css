@@ -139,7 +139,7 @@ nav {
 .modal input, textarea {
   background-color: white !important;
   border-radius: 5px !important;
-  margin-top: 20px !important;
+  margin-top: 15px !important;
 }
 
 .modal label {
@@ -153,19 +153,23 @@ nav {
 }
 
 .modal-title {
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 textarea {
-  min-height: 100px;
+  min-height: 5rem !important;
 }
 
 /* label focus color */
  .input-field input:focus + label, textarea:focus + label {
-   color: #1676DD !important;
+   color: #F7931D !important;
  }
  /* label underline focus color */
  .row .input-field input:focus, textarea:focus {
-   border-bottom: 1px solid #1676DD !important;
-   box-shadow: 0 1px 0 0 #1676DD !important
+   border-bottom: 1px solid #F7931D !important;
+   box-shadow: 0 1px 0 0 #F7931D !important
+ }
+
+ .modal-btn {
+   margin-top: -45px;
  }
