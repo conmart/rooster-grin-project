@@ -12,4 +12,5 @@ $(document).ready(function(){
   $('.slider').slider({
     height: 509
   });
+  $('.modal').modal();
 });

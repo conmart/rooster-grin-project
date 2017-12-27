@@ -131,3 +131,41 @@ nav {
 .slider .indicators .indicator-item.active {
   background-color: black;
 }
+
+#modal1 {
+  background-color: transparent;
+}
+
+.modal input, textarea {
+  background-color: white !important;
+  border-radius: 5px !important;
+  margin-top: 20px !important;
+}
+
+.modal label {
+  color: white;
+  font-size: 18px;
+  padding: 2px;
+}
+
+.modal {
+  box-shadow: none;
+}
+
+.modal-title {
+  margin-bottom: 40px;
+}
+
+textarea {
+  min-height: 100px;
+}
+
+/* label focus color */
+ .input-field input:focus + label, textarea:focus + label {
+   color: #1676DD !important;
+ }
+ /* label underline focus color */
+ .row .input-field input:focus, textarea:focus {
+   border-bottom: 1px solid #1676DD !important;
+   box-shadow: 0 1px 0 0 #1676DD !important
+ }
