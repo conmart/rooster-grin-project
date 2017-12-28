@@ -78,6 +78,14 @@ nav {
   margin-top: 8%;
 }
 
+.percent-row {
+  margin: 40px 0;
+}
+
+.percent-box {
+  margin: 20px 0;
+}
+
 .percent {
   display: none;
   font-weight: bold;
