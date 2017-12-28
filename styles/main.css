@@ -139,6 +139,7 @@ nav {
   width: 50px;
   display: grid;
   float: right;
+  box-shadow: -2px 5px 10px #4f4f4f;
 }
 
 .envelope {
