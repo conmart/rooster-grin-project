@@ -140,6 +140,39 @@ nav {
   margin: 0 0 5px 0;
 }
 
+.slider-img1 {
+  background: linear-gradient(
+    to right,
+    rgba(243, 104, 25, .3),
+    rgba(0, 0, 0, .3)
+  ), url("../assets/hero-img.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 509px;
+}
+
+.slider-img2 {
+  background: linear-gradient(
+    to right,
+    rgba(243, 104, 25, .3),
+    rgba(0, 0, 0, .3)
+  ), url("../assets/iStock-503300108.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 509px;
+}
+
+.slider-img3 {
+  background: linear-gradient(
+    to right,
+    rgba(243, 104, 25, .3),
+    rgba(0, 0, 0, .3)
+  ), url("../assets/iStock-613672992.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 509px;
+}
+
 .envelope-background {
   border-radius: 5px 0 0 5px;
   background-color: #F7931D;
