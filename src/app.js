@@ -1,11 +1,6 @@
 // import Home from '../index.html'
 // import Styles from '../styles/main.css'
 
-console.log("working")
-
-// var options = [
-//   'height': 509
-// ];
 
 $(document).ready(function(){
   console.log('doc ready');
@@ -13,4 +8,15 @@ $(document).ready(function(){
     height: 509
   });
   $('.modal').modal();
+
+});
+
+var animated = false;
+
+
+$(document).scroll(function(){
+    if($(this).scrollTop() > 700 && !animated) {
+      $('.percent').fadeIn(3000);
+      animated = true;
+    }
 });
