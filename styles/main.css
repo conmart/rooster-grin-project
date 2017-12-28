@@ -54,12 +54,12 @@ nav {
   margin-bottom: 0px;
 }
 
-.img-text {
+.slanted-text {
   position: absolute;
   top: 100px;
-  left: 17%;
+  margin: 0 15%;
   color: #e0e0e0;
-  font-size: 25px;
+  font-size: 24px;
   text-align: center;
 }
 
@@ -93,18 +93,22 @@ nav {
   margin: 8%;
 }
 
+.right-text {
+  padding-right: 15%;
+}
+
+.left-text {
+  padding-left: 15%;
+}
+
 .row .flush-img {
   padding: 0px;
+  overflow: hidden;
 }
 
 .bottom-img {
   max-width: 705px;
   max-height: 350px;
-}
-
-.phone-div {
-  text-align: right;
-  width: 50%;
 }
 
 .text-with-img {
@@ -196,4 +200,18 @@ textarea {
 
  .modal-btn {
    margin-top: -45px;
+ }
+
+ @media (max-width: 750px) {
+   .slanted-text {
+     font-size: 17px;
+   }
+ }
+
+ @media (max-width: 600px) {
+   .left-text, .right-text {
+     margin: 0;
+     padding: 0 0 25px 0;
+     text-align: center;
+   }
  }
