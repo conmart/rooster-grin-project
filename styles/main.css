@@ -79,6 +79,7 @@ nav {
 }
 
 .percent {
+  display: none;
   font-weight: bold;
   letter-spacing: 2px;
   font-size: 55px;
