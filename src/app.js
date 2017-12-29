@@ -11,12 +11,28 @@ $(document).ready(function(){
 
 });
 
-var animated = false;
-
+var animatePercent = false;
+var animateCheckerImg = false;
 
 $(document).scroll(function(){
-    if($(this).scrollTop() > 700 && !animated) {
+    let percentPoint = 800;
+    let checkerPoint = 1100;
+
+    if(!animatePercent || !animateCheckerImg) {
+      if ($(window).width() < 600) {
+        percentPoint = 1000;
+        checkerPoint = 1900;
+      }
+    }
+
+    if($(this).scrollTop() > percentPoint && !animatePercent) {
       $('.percent').fadeIn(3000);
-      animated = true;
+      animatePercent = true;
+    }
+    if($(this).scrollTop() > checkerPoint && !animateCheckerImg) {
+      let windWidth = $(window).width();
+      console.log("triggered animate", windWidth);
+      $('.flush-img').fadeIn(3000);
+      animateCheckerImg = true;
     }
 });

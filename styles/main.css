@@ -2,6 +2,19 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+.animate-me {
+  height: 100px;
+  width: 100px;
+  background-color: darkgray;
+  margin-left: 200px;
+  display: none;
+}
+
+.filler {
+  height: 1000px;
+  width: 200px;
+}
+
 h1 {
   font-size: 28px;
   color: #283647;
@@ -113,6 +126,7 @@ nav {
 .row .flush-img {
   padding: 0px;
   overflow: hidden;
+  display: none;
 }
 
 .bottom-img {
@@ -181,6 +195,10 @@ nav {
   display: grid;
   float: right;
   box-shadow: -2px 5px 10px #4f4f4f;
+}
+
+.envelope-background a {
+  padding-top: 7px;
 }
 
 .envelope {
@@ -256,5 +274,17 @@ textarea {
      margin: 0;
      padding: 0 0 25px 0;
      text-align: center;
+   }
+ }
+
+ @media (max-width: 350px) {
+   .hero-img-text {
+     top: 40%;
+     left: 10%;
+     width: 90%;
+   }
+
+   .hero-img-text p {
+     font-size: 30px;
    }
  }
