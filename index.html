@@ -3,14 +3,12 @@
   <head>
     <meta charset="utf-8">
     <title>Rooster Grin Front End Dev Test</title>
-    <!-- Roboto font -->
+
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
-    <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
     <link rel="stylesheet" href="/styles/main.css">
 
-    <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
 
@@ -27,13 +25,13 @@
     <div class="slider" id="main-slider">
       <ul class="slides">
         <li>
-          <img src="/assets/hero-img.jpg">
+          <div class="slider-img1"></div>
         </li>
         <li>
-          <img src="/assets/iStock-503300108.jpg">
+          <div class="slider-img2"></div>
         </li>
         <li>
-          <img src="/assets/iStock-613672992.jpg">
+          <div class="slider-img3"></div>
         </li>
       </ul>
       <div class="hero-img-text">
@@ -42,7 +40,9 @@
           Button
         </button>
         <div class="envelope-background">
-          <img src="/assets/envelope-icon.svg" alt="envelope icon" class="envelope">
+          <a href="mailto:example@example.com" class="envelope">
+            <img src="/assets/envelope-icon.svg" alt="envelope icon" class="envelope">
+          </a>
         </div>
       </div>
     </div>
@@ -117,8 +117,8 @@
         </div>
       </div>
 
-      <div class="row">
-        <div class="col m4 s10 push-s1">
+      <div class="row percent-row">
+        <div class="col m4 s10 push-s1 percent-box">
           <div class="col s10 push-s1 m8 center-align">
             <span class="percent">240%</span>
           </div>
@@ -129,7 +129,7 @@
           </div>
         </div>
 
-        <div class="col m4 s10 push-s1">
+        <div class="col m4 s10 push-s1 percent-box">
           <div class="col s10 push-s1 m8 push-m2 center-align">
             <span class="percent">105%</span>
           </div>
@@ -140,7 +140,7 @@
           </div>
         </div>
 
-        <div class="col m4 s10 push-s1">
+        <div class="col m4 s10 push-s1 percent-box">
           <div class="col s10 push-s1 m8 push-m4 center-align">
             <span class="percent">159%</span>
           </div>
@@ -218,6 +218,5 @@
       </div>
     </div>
 
-    <script type="text/javascript" src="bundle.js"></script>
   </body>
 </html>
