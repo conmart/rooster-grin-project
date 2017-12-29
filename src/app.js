@@ -1,9 +1,4 @@
-// import Home from '../index.html'
-// import Styles from '../styles/main.css'
-
-
 $(document).ready(function(){
-  console.log('doc ready');
   $('.slider').slider({
     height: 509
   });
@@ -31,7 +26,6 @@ $(document).scroll(function(){
     }
     if($(this).scrollTop() > checkerPoint && !animateCheckerImg) {
       let windWidth = $(window).width();
-      console.log("triggered animate", windWidth);
       $('.flush-img').fadeIn(3000);
       animateCheckerImg = true;
     }
